@@ -1,36 +1,34 @@
-<h1 align="center">MERN Crash Course 🚀</h1>
+# 🛍 Product Management Site
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+## 📌 Overview  
+A full-stack MERN web application for managing products. Users can *add, modify, and delete products* with details like name, price, and image URL. The app includes a *light/dark mode toggle* for better user experience.
 
-[Video Tutorial on Youtube](https://youtu.be/Dukz-3mS3Us)
+## 🚀 Tech Stack  
+- *Frontend:* React, Vite  
+- *Backend:* Node.js, Express.js  
+- *Database:* MongoDB (Mongoose ORM)  
+- *API Testing:* Postman  
+- *UI Features:* Light/Dark Mode  
 
-About This Course:
+## 🌟 Features  
+✅ *Add new products* with name, price, and image URL  
+✅ *Modify existing products* easily  
+✅ *Delete products* from the database  
+✅ *Light/Dark mode toggle* for UI customization  
+✅ *Responsive design* for various screen sizes  
 
--   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Chakra UI
--   🔥 Build an API
--   📱 Responsive UI With React.js and ChakraUI
--   🐞 Error Handling
--   🌐 Deployment
--   🚀 And Many More Cool Features
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
+## 🏗 Setup Instructions  
+### *1. Clone the Repository*  
+git clone https://github.com/NiharPatel2545/basic_mern_app.git
 
-### Setup .env file
+### *2.install dependencies*:
+cd basic_mern_app
+npm install
 
-```shell
-MONGO_URI=your_mongo_uri
-PORT=5000
-```
+### *3.run frontend*:
+cd frontend
+npm run dev
 
-### Run this app locally
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm run start
-```
-
-### I'll see you in the next one! 🚀
+### *4.run backend*:
+cd backend
+npm start
