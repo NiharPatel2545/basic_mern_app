@@ -17,6 +17,9 @@ A full-stack MERN web application for managing products. Users can *add, modify,
 ✅ *Light/Dark mode toggle* for UI customization  
 ✅ *Responsive design* for various screen sizes  
 
+## 🚀 Live Site
+[Visit the deployed app]([https://your-render-app-url.com](https://basic-mern-app-zbf2.onrender.com))
+
 ## 🏗 Setup Instructions  
 ### *1. Clone the Repository*  
 git clone https://github.com/NiharPatel2545/basic_mern_app.git
