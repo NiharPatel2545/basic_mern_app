@@ -15,10 +15,11 @@ app.use(express.json()); // allows us to accept JSON data in the req.body
 
 app.use("/api/products", productRoutes);
 
-if (process.env.NODE_ENV.trim() === "production") {
-	app.use(express.static(path.join(__dirname, "/frontend/dist")));
+if (process.env.NODE_ENV === "production") {
+	app.use(express.static(path.resolve("frontend", "dist")));
+  
 	app.get("*", (req, res) => {
-	  res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
+	  res.sendFile(path.resolve("frontend", "dist", "index.html"));
 	});
   }
 
