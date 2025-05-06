@@ -18,7 +18,7 @@ A full-stack MERN web application for managing products. Users can *add, modify,
 ✅ *Responsive design* for various screen sizes  
 
 ## 🚀 Live Site
-[Visit the deployed app]([https://your-render-app-url.com](https://basic-mern-app-zbf2.onrender.com))
+Visit the deployed app: https://basic-mern-app-zbf2.onrender.com
 
 ## 🏗 Setup Instructions  
 ### *1. Clone the Repository*  
